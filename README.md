@@ -3,7 +3,7 @@ Angular.js service to work with user notifications.
 
 ### What for
 
-Angular.js service, which may efficiency significantly facilitate a process of managing UI notifications.
+Angular.js service, which may significantly facilitate a process of managing UI notifications.
 Actually you may use one of the following message types: 
 <ul>
 <li> - success </li>
