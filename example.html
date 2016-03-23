@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>UI Notifications</title>
+    <link rel="stylesheet" type="text/css" href="lobibox/style.css" />
+</head>
+<body ng-app="myApp">
+
+<div ng-controller="myController as ctrl">
+
+    <button ng-click="ctrl.openErrorPopup()">Error message</button>
+    <button ng-click="ctrl.openSuccessPopup()">Success message</button>
+    <button ng-click="ctrl.confirm()">Show how does confirmation work</button>
+    <button ng-click="ctrl.inform()">Show a simple inform message</button>
+
+</div>
+
+<script src="vendor/angular.js"></script>
+<script src="vendor/jquery.js"></script>
+<script src="lobibox/lobibox.js"></script>
+<script src="lobibox/messageboxes.js"></script>
+<script src="lobibox/notifications.js"></script>
+<script src="dist/module.js"></script>
+<script src="dist/uiNotificationService.js"></script>
+<script src="example.js"></script>
+
+</body>
+</html>
