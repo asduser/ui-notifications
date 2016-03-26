@@ -1,7 +1,8 @@
-# ui-notifications
-Angular.js service to work with user notifications.
+### Demo
 
-### What for
+<a href="http://asduser.github.io/examples/ui-notifications/index.html"><b>Open demo page</b></a>
+
+### Description
 
 Angular.js service, which may significantly facilitate a process of managing UI notifications.
 Actually you may use one of the following message types: 
@@ -39,3 +40,7 @@ Actually you may use one of the following message types:
       alert("Some actions after confirmation...");
   }
 ```
+
+### Dependencies
+
+This service uses a jQuery notification plugin "<i>lobibox</i>". Be sure, that it was injected into your main project.

@@ -3,7 +3,7 @@
     "use strict";
 
     angular
-        .module("myApp", ["app.utils"])
+        .module("myApp", ["FE.utils"])
         .controller("myController", myController);
 
     function myController(uiNotifications){
@@ -37,7 +37,7 @@
 
     // IoC container.
     myController.$inject = [
-        "appUtils.uiNotifications"
+        "utils.uiNotifications"
     ];
 
 })();

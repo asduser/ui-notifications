@@ -3,8 +3,8 @@
     "use strict";
 
     angular
-        .module("app.utils")
-        .service("appUtils.uiNotifications", uiNotifications);
+        .module("FE.utils")
+        .service("utils.uiNotifications", uiNotifications);
 
     /**
      * Special anglar.js factory to manage modal notifications.
