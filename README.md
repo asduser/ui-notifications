@@ -9,10 +9,10 @@
 Angular.js service, which may significantly facilitate a process of managing UI notifications.
 Actually you may use one of the following message types: 
 <ul>
-<li> - success </li>
-<li> - error </li>
-<li> - info </li>
-<li> - warning </li>
+<li> success </li>
+<li> error </li>
+<li> info </li>
+<li> warning </li>
 </ul>
 
 ### How does it work
